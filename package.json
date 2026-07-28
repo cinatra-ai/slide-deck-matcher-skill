@@ -1,0 +1,17 @@
+{
+  "name": "@cinatra-ai/slide-deck-matcher-skill",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Classifies an attached PDF resource as a Slide Deck (vs prose document). Extracted from @cinatra-ai/slide-deck-artifact (cinatra#2090).",
+  "type": "module",
+  "files": [
+    "skills"
+  ],
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "displayName": "Slide Deck Matcher Skill",
+    "skillRole": "matcher",
+    "dependencies": []
+  }
+}
